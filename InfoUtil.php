@@ -14,6 +14,9 @@
             </tr>
             <tr>
                 <td style="color:#000000;background-color:#FFFFFF;padding:5px;">'.$sections[$section][1].'</td>
+            </tr>
+            <tr>
+                <td style="background-color:transparent;padding:5px;">&nbsp;</td>
             </tr>';
         return $rval;
     }
