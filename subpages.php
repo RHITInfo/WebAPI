@@ -3,7 +3,7 @@
     $output = 
 '<?xml version="1.0"?>
 <subpages>';
-    foreach($subpages as $key => $subpage)
+    foreach($subpages[$_GET['page']] as $key => $subpage)
     {
         $output .= '
     <subpage>
